@@ -32,7 +32,7 @@ The dataset includes details such as:
 
 ## Methodology:
 
-### **Step 1: Data Ingestion**  
+### ** Data Ingestion**  
 The raw dataset was uploaded to the S3 bucket `pub-arts-raw-san`. This straightforward method follows AWS best practices, ensuring cost-effectiveness and scalability.  
 - **Bucket Structure:**  
   1. `pub-arts-raw-san`: Stores raw data.  
@@ -40,7 +40,7 @@ The raw dataset was uploaded to the S3 bucket `pub-arts-raw-san`. This straightf
 
 ![image](https://github.com/user-attachments/assets/404ae9e9-9463-4e47-866f-11f7064f95d8)
 
-### **Step 2: Data Profiling**  
+### ** Data Profiling**  
 Data profiling involves evaluating the dataset's structure, accuracy, and relationships.  
 - **Process:**  
   1. Connected the dataset in `pub-arts-raw-san` to AWS Glue DataBrew.  
@@ -48,7 +48,7 @@ Data profiling involves evaluating the dataset's structure, accuracy, and relati
 
 ![image](https://github.com/user-attachments/assets/f43ef7b6-0ebd-49da-8e72-6c1fd02629ec)
 
-### **Step 3: Data Cleaning**  
+### ** Data Cleaning**  
 Key cleaning activities include:  
 1. Removed irrelevant entries and special characters.  
 2. Filtered columns like `Title of Work`, `Material Used`, `Neighborhood`, and `Year of Installation`.  
@@ -60,7 +60,7 @@ Outputs:
 
 ![image](https://github.com/user-attachments/assets/486d7264-7c5b-4b2f-a781-a642bca65b32)
 
-### **Step 4: Data Pipeline Design**  
+### ** Data Pipeline Design**  
 An **ETL Pipeline** was created using AWS Glue to automate and standardize data transformation.  
 - **Checks Performed:**  
   1. **Data Completeness:** Ensured no critical fields are left blank.  
