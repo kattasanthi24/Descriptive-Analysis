@@ -24,7 +24,7 @@ To analyze public art installations over the years, identify trends, and impleme
 ---
 
 ## **Dataset Details**
-The dataset includes the following columns:  
+https://opendata.vancouver.ca/explore/dataset/public-art/table/
 - **Title of Work**: The name of the public art installation.  
 - **Material Used**: The materials used in the artwork (e.g., metal, wood).  
 - **Neighborhood**: The neighborhood where the installation is located.  
